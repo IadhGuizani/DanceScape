@@ -1,0 +1,82 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Poiret One', cursive;
+  }
+  
+  .form {
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+  
+  section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+  }
+  
+  h2 {
+    padding-top: 50px;
+    margin: 0px 0px 80px 630px;
+  }
+  
+  .form-group {
+    color: #797979;
+  }
+  
+  .form-control {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding: 20px 10px;
+    border-radius: 5px;
+    border: 1px solid #797979;
+    display: block;
+    opacity: 50%;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .btn-primary,
+  .btn-secondary {
+    padding: 10px 20px;
+    margin: 20px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .btn-primary {
+    background-color: #4154f1;
+    border: #4154f1 1px solid;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: white;
+    border: #4154f1 1px solid;
+    border-radius: 5px;
+    color: #4154f1;
+  }
+  
+  .btn-secondary {
+    background-color: white;
+    border: #4154f1 1px solid;
+    border-radius: 5px;
+    color: #4154f1;
+    cursor: pointer;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #4154f1;
+    border: #4154f1 1px solid;
+    border-radius: 5px;
+    color: #ffffff;
+  }
+  .add {
+    margin-left: 500px;
+  }

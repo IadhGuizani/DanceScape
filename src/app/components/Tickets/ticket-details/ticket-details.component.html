@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ticket Details</title>
+</head>
+<body>
+<section>
+  <h2>Ticket Details</h2>
+  <div class="details-container">
+    <div class="detail">
+      <strong>Price:</strong> {{ ticket?.price }}
+    </div>
+    <div class="detail">
+      <strong>Type:</strong> {{ ticket?.type }}
+    </div>
+    <div class="detail">
+      <strong>Spectator Name:</strong> {{ ticket?.spectator }}
+    </div>
+    <div class="detail">
+      <strong>Reserved Seats:</strong> {{ ticket?.reservedseats }}
+    </div>
+    <div class="detail">
+      <strong>Competition:</strong> {{ ticket?.competition?.id }}
+    </div>
+  </div>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Poiret One', cursive;
+}
+
+section {
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  padding-top: 50px;
+  margin: 0px 0px 80px 0px;
+  color: #830101;
+
+}
+
+.details-container {
+  display: inline-block;
+  text-align: center;
+}
+
+.detail {
+  font-size: 20px;
+  color: #797979;
+  margin-bottom: 30px;
+}

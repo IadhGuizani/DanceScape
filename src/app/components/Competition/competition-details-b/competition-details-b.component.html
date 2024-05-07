@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Competition Details</title>
+</head>
+<body>
+<section>
+  <h2>Competition Details</h2>
+  <div class="details-container">
+    <div class="detail">
+      <strong>Competition ID:</strong> {{ competition?.id }}
+    </div>
+    <div class="detail">
+      <strong>Name:</strong> {{ competition?.name }}
+    </div>
+    <div class="detail">
+      <strong>Date:</strong> {{ competition?.date }}
+    </div>
+    <div class="detail">
+      <strong>Venue:</strong> {{ competition?.venue }}
+    </div>
+    <div class="detail">
+      <strong>Category:</strong> {{ competition?.category }}
+    </div>
+  </div>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

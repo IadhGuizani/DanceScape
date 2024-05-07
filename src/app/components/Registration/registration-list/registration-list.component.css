@@ -1,0 +1,132 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Poiret One', cursive;
+
+}
+/* Style the search container */
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px; /* Add some spacing between the search bar and the table */
+}
+
+/* Style the search input */
+.search-input {
+  flex: 1; /* Allow the input to grow and fill the available space */
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Style the search button */
+.search-button {
+  background-color: #830101; /* Blue color for the button */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: 10px; /* Add spacing between the input and the button */
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Hover effect for the button */
+.search-button:hover {
+  background-color: #fff; /* Blue color for the button */
+  color: #830101; /* White text color */
+  border: #830101 solid 1px;
+  border-radius: 5px;
+}
+.no-matching-results{
+  margin-left: 220px;
+  color: #FFFFFF;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px; /* Add some spacing between the tables */
+}
+
+
+/* Style the table */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+table, th, td {
+
+  border: 1px solid #ddd;
+}
+
+th {
+  color: #830101;
+
+  padding: 10px;
+  text-align: left;
+}
+td {
+  padding: 10px;
+  text-align: left;
+}
+td.button-cell {
+  border: none;
+  text-align: center;
+}
+h2{
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+/* Style the table header */
+th {
+  background-color: #f2f2f2;
+}
+
+/* Add a hover effect on table rows */
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Make the table responsive on smaller screens */
+@media screen and (max-width: 600px) {
+  table {
+    font-size: 14px;
+  }
+
+  th, td {
+    padding: 9px;
+  }
+}
+.button-column {
+  display: block;
+  margin-top: 26px;
+}
+.delete-button:focus {
+  outline: none;
+}
+
+.delete-button {
+  background-color: #ffffff;
+  border: #830101 1px solid;
+  border-radius: 5px;
+  color: #830101;
+  padding: 10px 15px;
+  margin-left: 10px; /* Add spacing between the input and the button */
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.delete-button:hover {
+  background-color: #830101;
+  border: #ffffff 1px solid;
+  border-radius: 5px;
+  color: #ffffff;
+}

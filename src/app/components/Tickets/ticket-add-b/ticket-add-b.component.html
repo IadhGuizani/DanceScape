@@ -1,0 +1,31 @@
+<div class="container">
+  <h2>Add a Ticket</h2>
+  <form (ngSubmit)="addTicket()">
+    <div class="form-group">
+      <label for="price">Price:</label>
+      <input type="number" class="form-control" id="price" [(ngModel)]="newTicket.price" name="price" required>
+    </div>
+    <div class="form-group">
+      <label for="type">Type:</label>
+      <select class="form-control" id="type" [(ngModel)]="newTicket.type" name="type" required>
+        <option value="AVAILABE" selected>Available</option>
+        <option value="RESERVED">Reserved</option>
+        <option value="SOLD">Sold</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="spectator">Spectator:</label>
+      <input type="text" class="form-control" id="spectator" [(ngModel)]="newTicket.spectator" name="spectator" required>
+    </div>
+    <div class="form-group">
+      <label for="reservedseats">Reserved Seats:</label>
+      <input type="number" class="form-control" id="reservedseats" [(ngModel)]="newTicket.reservedseats" name="reservedseats" required>
+    </div>
+    <div class="form-group">
+      <label for="competitionid">Competition ID:</label>
+      <input type="number" class="form-control" id="competitionid" [(ngModel)]="newTicket.competitionid" name="competitionid">
+    </div>
+    <button type="submit" class="btn btn-primary">Add Ticket</button>
+    <button type="button" class="btn btn-secondary" (click)="cancelSubmit()">Cancel</button>
+  </form>
+</div>

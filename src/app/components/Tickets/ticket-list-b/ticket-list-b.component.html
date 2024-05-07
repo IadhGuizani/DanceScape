@@ -1,0 +1,35 @@
+<!-- src/app/components/tickets-list/tickets-list.component.html -->
+<div class="container">
+    <h2>Ticket List</h2>
+    <table class="table">
+      <thead>
+      <tr>
+        <th>Price</th>
+        <th>Spectator</th>
+        <th>Reserved Seats</th>
+        <th>Type</th>
+  
+        <th>Competition Name</th>
+        <th>Actions</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let ticket of tickets">
+        <td>{{ ticket.price | currency  }}</td>
+        <td>{{ ticket.spectator }}</td>
+        <td>{{ ticket.reservedseats }}</td>
+        <td>{{ ticket.type }}</td>
+  
+        <td>{{ticket.competitionid }}</td>
+
+        <td>
+          <button class="delete-button" (click)="purchaseTicket(ticket)">Purchase</button>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="add">
+    <button class="delete-button" routerLink="/back/ticket-add-b">Add a Ticket</button>
+  </div>
+  
